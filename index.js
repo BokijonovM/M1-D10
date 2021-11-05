@@ -13,3 +13,38 @@ JS EXERCISES
         30) Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values
 
 */
+
+// Exercises 1
+let x = "John"
+let y = "Doe"
+// console.log(x + " <> " + y)
+
+// Exercises 2
+let myDetails = {
+    name: "Muhsin",
+    surname: "Bokijonov",
+    email: "mbm.uzg@gmail.com"
+}
+
+// Exercises 3
+delete myDetails.email
+
+// Exercises 4
+let arr = ["one","two","three","four","five","six","seven","eight","nine","ten",]
+
+// Exercises 5
+console.log(arr)
+
+// Exercises 6
+
+function randomArray(length, max) {
+    return Array.apply(null, Array(length)).map(function() {
+        return Math.round(Math.random() * max);
+    });
+}
+let output6 = randomArray(100, 100)
+console.log(output6)
+
+
+
+// Exercises 7
