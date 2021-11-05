@@ -49,8 +49,22 @@ const changeStyleEachRow = function(){
     let rowId = document.getElementById("add-new-row")
     rowId.classList.add("test")
 }
-// et output36 = changeStyleEachRow()
+// let output36 = changeStyleEachRow()
 // console.log(output36)
-// Exercises 31
+
+
+// Exercises 37
+const addBackgroundToLinks = function(){
+    let getLinkId = document.querySelectorAll("a")
+    getLinkId[1].style.backgroundColor = "red"
+    getLinkId[3].style.backgroundColor = "red"
+    getLinkId[5].style.backgroundColor = "red"
+    getLinkId[7].style.backgroundColor = "red"
+}
+// let output37 = addBackgroundToLinks()
+// console.log(output37)
+
+
+
 // Exercises 31
 // Exercises 31
