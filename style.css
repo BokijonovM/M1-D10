@@ -13,3 +13,22 @@ CSS EXERCISES
         20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property)
 
 */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+} 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+} 
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.image{
+    width: 80px;
+    height: 20%;
+    position:relative;
+    padding-left: 10%;
+}
