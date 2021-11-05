@@ -60,6 +60,12 @@ table {
 td{
     border: 1px solid #00db71;
 }
+/*20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property)*/
+tr{
+    border-collapse: collapse;
+    border-style: dotted;
+    border-color: red;
+}
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
