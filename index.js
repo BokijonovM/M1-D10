@@ -70,4 +70,12 @@ const addBackgroundToLinks = function(){
 window.onload = function(){
     console.log("Page Loaded")
 }
-// Exercises 31
+// Exercises 39
+const addNewItemToUL = function(){
+    let getULId = document.getElementById("unordered-list")
+    let addNewLI = document.createElement("LI")
+    addNewLI.innerText = "New Added LI"
+    getULId.appendChild(addNewLI)
+}
+// let output39 = addNewItemToUL()
+// console.log(output39)
