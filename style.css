@@ -13,12 +13,16 @@ CSS EXERCISES
         20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property)
 
 */
+/*14) Create a class with a border assigned to it*/
+/* 11) Give a maximum width to the body and center it into the page*/
 body{
     min-width: 50%;
     text-align: center;
     border: 2px solid #00db71;
     border-radius: 20px;
 }
+/*15) Set the previously created table to have rounded corners*/
+/* 12) Set every h1 to be centered*/
 h1{
     color: #00db71;
     text-align: center;
@@ -26,14 +30,20 @@ h1{
     border-radius: 20px;
     
 }
+/*13) Change the color of each link in the page*/
 a{
     color: #00db71
 }
+/*16) Add a margin between every paragraph*/
 p{
     border: 1px solid #00db71;
     border-radius: 10px;
     margin: 15px;
 
+}
+/*18) Create a class to hide a piece of content*/
+.hide-content{
+    visibility:hidden;
 }
 table {
     font-family: arial, sans-serif;
@@ -45,6 +55,10 @@ table {
 #create-table{
     border: 1px;
     border-radius: 5px;
+}
+/*19) Add a green border to each <td>*/
+td{
+    border: 1px solid #00db71;
 }
 td, th {
     border: 1px solid #dddddd;
@@ -69,9 +83,12 @@ hr{
     text-align: center;
     font-size: 30px;
 }
-#nested-p-ul{
+/*17) Create a class which changes font size and text weight when applied*/
+.change-font-size-and-weight{
     color: #00db71;
-    text-align: center
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif; 
+    font-weight: bold;
 }
 
 footer{
