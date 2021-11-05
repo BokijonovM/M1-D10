@@ -65,6 +65,7 @@ tr{
     border-collapse: collapse;
     border-style: dotted;
     border-color: red;
+    border-radius: 5px;
 }
 td, th {
     border: 1px solid #dddddd;
