@@ -59,6 +59,7 @@ const getMinAndMaxValues = function(){
 let output7 = getMinAndMaxValues()
 console.log(output7)
 
+
 // Exercises 8
 let arr8 = [];
 for(let i = 0; i < 10; i++){
@@ -68,3 +69,45 @@ for(let i = 0; i < 10; i++){
      arr8.push(current);
 }
 console.log(arr8)
+
+// Exercises 9
+const getLongestArray = function(arrayA, arrayB){
+    if(arrayA.length > arrayB.length){
+        console.log("First array is longest array")
+    }
+    else if(arrayA.length < arrayB.length){
+        console.log("Second array is longest array")
+    }
+    else if(arrayA.length = arrayB.length){
+        console.log("Length of array is equal")
+    }
+    else{
+        console.log("You entered wrong data type!")
+    }
+}
+let output9 = getLongestArray([1,2,3,4,5],[2,4,5,2,1,3,4,2])
+console.log(output9)
+
+// Exercises 10
+const returnHigherSumOfArrays = function(arrayA, arrayB){
+    let sum1 = 0
+    for(let i = 0; i<arrayA.length; i++){
+        sum1 += arrayA[i]
+    }
+    let sum2 = 0
+    for(let i = 0; i<arrayB.length; i++){
+        sum2 += arrayB[i]
+    }
+
+    if(sum1 > sum2){
+        console.log("Sum of first array is higher than sum of second array")
+
+    }
+    else if(sum2 > sum1){
+        console.log("Sum of second array is higher than sum of first array")
+
+    }
+    else{
+        console.log("Arrays has wrong data type elements. Please enter only numbers")
+    }
+}
