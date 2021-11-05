@@ -111,3 +111,5 @@ const returnHigherSumOfArrays = function(arrayA, arrayB){
         console.log("Arrays has wrong data type elements. Please enter only numbers")
     }
 }
+let output10 = returnHigherSumOfArrays([1,2,3,4], [6,5,3,8,9])
+console.log(output10)
