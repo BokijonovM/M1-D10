@@ -113,3 +113,9 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+.test{
+    text-align: center;
+    color:#00db71;
+    font-size: 30px;;
+}
