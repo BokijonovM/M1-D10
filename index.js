@@ -66,5 +66,8 @@ const addBackgroundToLinks = function(){
 
 
 
-// Exercises 31
+// Exercises 38
+window.onload = function(){
+    console.log("Page Loaded")
+}
 // Exercises 31
