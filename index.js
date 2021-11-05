@@ -27,7 +27,9 @@ let myDetails = {
 }
 
 // Exercises 3
-delete myDetails.email
+let deleteEmail = delete myDetails.email
+// console.log(deleteEmail)
+
 
 // Exercises 4
 let arr = ["one","two","three","four","five","six","seven","eight","nine","ten",]
@@ -42,9 +44,17 @@ function randomArray(length, max) {
         return Math.round(Math.random() * max);
     });
 }
-let output6 = randomArray(100, 100)
+let output6 = randomArray(100, 200)
 console.log(output6)
 
 
 
 // Exercises 7
+const getMinAndMaxValues = function(){
+    let maxValue = Math.max.apply(null, output6)
+    let minValue = Math.min.apply(null, output6)
+    console.log("Max value: " + maxValue)
+    console.log("Min value: " + minValue)
+}
+let output7 = getMinAndMaxValues()
+console.log(output7)
