@@ -14,30 +14,30 @@ JS EXERCISES
 
 */
 
-// Exercises 1
+// Exercises 21
 let x = "John"
 let y = "Doe"
 // console.log(x + " <> " + y)
 
-// Exercises 2
+// Exercises 22
 let myDetails = {
     name: "Muhsin",
     surname: "Bokijonov",
     email: "mbm.uzg@gmail.com"
 }
 
-// Exercises 3
+// Exercises 23
 let deleteEmail = delete myDetails.email
 // console.log(deleteEmail)
 
 
-// Exercises 4
+// Exercises 24
 let arr = ["one","two","three","four","five","six","seven","eight","nine","ten",]
 
-// Exercises 5
+// Exercises 25
 console.log(arr)
 
-// Exercises 6
+// Exercises 26
 
 function randomArray(length, max) {
     return Array.apply(null, Array(length)).map(function() {
@@ -49,7 +49,7 @@ console.log(output6)
 
 
 
-// Exercises 7
+// Exercises 27
 const getMinAndMaxValues = function(){
     let maxValue = Math.max.apply(null, output6)
     let minValue = Math.min.apply(null, output6)
@@ -60,7 +60,7 @@ let output7 = getMinAndMaxValues()
 console.log(output7)
 
 
-// Exercises 8
+// Exercises 28
 let arr8 = [];
 for(let i = 0; i < 10; i++){
      let current = [];
@@ -70,7 +70,7 @@ for(let i = 0; i < 10; i++){
 }
 console.log(arr8)
 
-// Exercises 9
+// Exercises 29
 const getLongestArray = function(arrayA, arrayB){
     if(arrayA.length > arrayB.length){
         console.log("First array is longest array")
@@ -88,7 +88,7 @@ const getLongestArray = function(arrayA, arrayB){
 let output9 = getLongestArray([1,2,3,4,5],[2,4,5,2,1,3,4,2])
 console.log(output9)
 
-// Exercises 10
+// Exercises 30
 const returnHigherSumOfArrays = function(arrayA, arrayB){
     let sum1 = 0
     for(let i = 0; i<arrayA.length; i++){

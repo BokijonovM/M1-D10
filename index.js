@@ -12,5 +12,6 @@
         40) Write a function to empty a list
 */
 
-
+// Exercises 31
+const getDivElementsFromHTML = document.querySelectorAll("div")
 
