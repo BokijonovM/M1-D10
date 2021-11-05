@@ -13,11 +13,39 @@ CSS EXERCISES
         20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property)
 
 */
+body{
+    min-width: 50%;
+    text-align: center;
+    border: 2px solid #00db71;
+    border-radius: 20px;
+}
+h1{
+    color: #00db71;
+    text-align: center;
+    border: 2px solid #00db71;
+    border-radius: 20px;
+    
+}
+a{
+    color: #00db71
+}
+p{
+    border: 1px solid #00db71;
+    border-radius: 10px;
+    margin: 15px;
+
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    border: 1px;
+    border-radius: 5px;
 } 
+#create-table{
+    border: 1px;
+    border-radius: 5px;
+}
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
@@ -31,4 +59,33 @@ tr:nth-child(even) {
     height: 20%;
     position:relative;
     padding-left: 10%;
+}
+hr{
+    color: #00db71;
+    border-top: 5px solid #00db71;
+}
+.td-color-change{
+    color:#00db71;
+    text-align: center;
+    font-size: 30px;
+}
+#nested-p-ul{
+    color: #00db71;
+    text-align: center
+}
+
+footer{
+    background: #dddddd;
+    padding: 15px 23px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+
+}
+footer span a{
+    color:#00db71;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
 }
