@@ -79,3 +79,12 @@ const addNewItemToUL = function(){
 }
 // let output39 = addNewItemToUL()
 // console.log(output39)
+
+
+// Exercises 40
+const emptyTheList = function(){
+    let getListId = document.getElementById("ordered-list")
+    getListId.style.display = "none"
+    let getListId2 = document.getElementById("unordered-list")
+    getListId2.style.display = "none"
+}
