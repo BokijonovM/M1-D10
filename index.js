@@ -58,3 +58,13 @@ const getMinAndMaxValues = function(){
 }
 let output7 = getMinAndMaxValues()
 console.log(output7)
+
+// Exercises 8
+let arr8 = [];
+for(let i = 0; i < 10; i++){
+     let current = [];
+     for(let j = 0; j < 10; j++)
+          current.push(Math.floor(Math.random() * 10));
+     arr8.push(current);
+}
+console.log(arr8)
