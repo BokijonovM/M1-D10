@@ -16,7 +16,9 @@ CSS EXERCISES
 /*14) Create a class with a border assigned to it*/
 /* 11) Give a maximum width to the body and center it into the page*/
 body{
-    min-width: 50%;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
     border: 2px solid #00db71;
     border-radius: 20px;
